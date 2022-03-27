@@ -1,0 +1,206 @@
+/* ==========Default css========== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ==========navbar css========== */
+
+.header {
+    background-color: #fef6fa;
+    padding-top: 11px;
+}
+
+.header ul {
+    margin-right: 21%;
+}
+
+.header ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #3e3c3d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3e3c3d;
+    transition: all linear 3e3c3d;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d50a51;
+}
+
+.header .login {
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #d50a51;
+    transition: all linear .3s;
+}
+
+.header .login:hover {
+    background-color: #d50a51;
+    color: #fff;
+}
+
+.header .login i {
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+
+/* ==========banner css========== */
+
+.banner {
+    padding-top: 53px;
+    background-image: url(../image/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(254, 250, 252, 0.3);
+    z-index: 2;
+}
+
+.banner .content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .writting {
+    text-align: center;
+    margin-top: 94px;
+}
+
+.banner h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #8a5e3b;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+
+.banner h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 57px;
+    color: #d50a51;
+    margin-bottom: 48px;
+}
+
+.banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 62px;
+}
+
+.banner button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #d50a51;
+    width: 220px;
+    height: 58px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: all linear .3s;
+}
+
+.banner button:hover {
+    color: #fff;
+    background-color: #d50a51;
+}
+
+
+/* ==========history css========== */
+
+.history {
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+.history h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.history .writting {
+    position: relative;
+}
+
+.history .image {
+    position: absolute;
+    top: -5%;
+    left: 2%;
+}
+
+.history .heading {
+    margin-left: 10%;
+}
+
+.history h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+.history p {
+    display: flex;
+    flex-direction: column;
+}
+
+.history p .para {
+    margin-bottom: 40px;
+}

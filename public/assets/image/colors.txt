@@ -1,0 +1,2 @@
+primary:	#d50a51
+hover:		
