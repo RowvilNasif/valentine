@@ -204,3 +204,82 @@ button {
 .history p .para {
     margin-bottom: 40px;
 }
+
+
+/* ==========gift css========== */
+
+.gift {
+    background-color: #fffae1;
+}
+
+.gift .content {
+    position: relative;
+}
+
+.gift .image {
+    position: absolute;
+    top: 12%;
+    left: 2%;
+}
+
+.gift .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.gift .heading h2 {
+    font-size: 18px;
+    color: #666;
+    text-transform: capitalize;
+    margin-top: 80px;
+}
+
+.gift .heading h3 {
+    font-size: 25px;
+    color: #d50a51;
+    margin-bottom: 62px;
+}
+
+.gift p {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444;
+}
+
+.gift .buttons {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #d50a51;
+    width: 128px;
+    height: 47px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 35px;
+    transition: all linear .3s;
+}
+
+.gift .buttons:hover {
+    background-color: #d50a51;
+    color: #fefefe;
+}
+
+.gift .buttons.send_gift {
+    margin-right: 20px;
+    width: 128px;
+}
+
+.gift .buttons.proposal {
+    width: 171px;
+}
+
+.gift .flower_image {
+    position: relative;
+    right: 29%;
+    bottom: 24%;
+}
