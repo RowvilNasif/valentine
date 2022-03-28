@@ -218,7 +218,7 @@ button {
 
 .gift .image {
     position: absolute;
-    top: 12%;
+    top: 9%;
     left: 2%;
 }
 
@@ -280,6 +280,7 @@ button {
 
 .gift .flower_image {
     position: relative;
-    right: 29%;
-    bottom: 24%;
+    right: 37%;
+    bottom: 36%;
+    margin-bottom: -212px;
 }
