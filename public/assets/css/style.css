@@ -199,6 +199,10 @@ button {
 .history p {
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #565656;
 }
 
 .history p .para {
@@ -254,28 +258,31 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 17px;
-    color: #d50a51;
     width: 128px;
     height: 47px;
-    border: 1px solid #d50a51;
-    border-radius: 30px;
-    background-color: transparent;
     margin-top: 35px;
-    transition: all linear .3s;
-}
-
-.gift .buttons:hover {
-    background-color: #d50a51;
-    color: #fefefe;
+    border-radius: 30px;
 }
 
 .gift .buttons.send_gift {
     margin-right: 20px;
     width: 128px;
+    color: #fff;
+    border: 1px solid #d50a51;
+    background-color: #d50a51;
 }
 
 .gift .buttons.proposal {
     width: 171px;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    background-color: transparent;
+    transition: all linear .3s;
+}
+
+.gift .buttons.proposal:hover {
+    background-color: #d50a51;
+    color: #fefefe;
 }
 
 .gift .flower_image {
@@ -283,4 +290,89 @@ button {
     right: 37%;
     bottom: 36%;
     margin-bottom: -212px;
+}
+
+
+/* ==========ticket css========== */
+
+.ticket {
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+.ticket h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.ticket .writting {
+    position: relative;
+}
+
+.ticket .image {
+    position: absolute;
+    top: -6%;
+    right: 0;
+}
+
+.ticket .heading {
+    margin-right: 5%;
+    text-align: right;
+}
+
+.ticket h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+.ticket p {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.ticket p .para {
+    margin-bottom: 40px;
+}
+
+.ticket .buttons {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    height: 47px;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+
+.ticket .buttons.ticket {
+    margin-right: 20px;
+    width: 128px;
+    height: 47px;
+    color: #fff;
+    border: 1px solid #d50a51;
+    background-color: #d50a51;
+}
+
+.ticket .buttons.quote {
+    width: 171px;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: all linear .3s;
+}
+
+.ticket .buttons.proposal:hover {
+    background-color: #d50a51;
+    color: #fefefe;
 }
