@@ -308,8 +308,17 @@ button {
     text-transform: capitalize;
 }
 
+.ticket h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
 .ticket .writting {
     position: relative;
+    text-align: right;
 }
 
 .ticket .image {
@@ -320,21 +329,11 @@ button {
 
 .ticket .heading {
     margin-right: 5%;
-    text-align: right;
-}
-
-.ticket h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #d50a51;
-    text-transform: capitalize;
 }
 
 .ticket p {
     display: flex;
     flex-direction: column;
-    text-align: right;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -354,10 +353,9 @@ button {
     border-radius: 30px;
 }
 
-.ticket .buttons.ticket {
+.ticket .buttons.gifts {
     margin-right: 20px;
     width: 128px;
-    height: 47px;
     color: #fff;
     border: 1px solid #d50a51;
     background-color: #d50a51;
@@ -375,4 +373,250 @@ button {
 .ticket .buttons.proposal:hover {
     background-color: #d50a51;
     color: #fefefe;
+}
+
+
+/* ==========service css========== */
+
+.service {
+    background-image: url(../image/offer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.service::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(254, 245, 249, 0.8);
+    z-index: 2;
+}
+
+.service .content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service .writting {
+    position: relative;
+}
+
+.service .image {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.service .heading {
+    position: relative;
+    left: 12%;
+    top: 5%;
+}
+
+.service h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.service h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+.service .writting_para {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #827e7e;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    line-height: 26px;
+}
+
+.service .items {
+    display: flex;
+    flex-direction: column;
+}
+
+.service .item {
+    padding-top: 30px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #827e7e;
+    transition: all linear .3s;
+}
+
+.service .item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0px 0 3px;
+}
+
+.service .item .head {
+    position: absolute;
+    left: 21%;
+    top: 26%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #d50a51;
+}
+
+.service .item .para {
+    padding: 24px 15px 32px;
+}
+
+.service .item .service_image {
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+
+.service .item .service_image.dinner {
+    left: 4%;
+}
+
+.service .item .head.dinner {
+    left: 26%;
+}
+
+
+/* ==========portfolio css========== */
+
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio .item {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio .image {
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio .image img {
+    width: 100%;
+}
+
+.portfolio .image::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    background-color: rgb(0, 0, 0, .85);
+    transition: all linear .3s;
+}
+
+.portfolio .image:hover::after {
+    opacity: 1;
+    height: 100%;
+}
+
+.portfolio .image button {
+    position: absolute;
+    right: 2%;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: all linear .3s;
+    font-size: 20px;
+    opacity: 0;
+    z-index: 3;
+}
+
+.portfolio .image:hover button {
+    opacity: 1;
+}
+
+.portfolio .image button:hover {
+    border: 1px solid #d50a51;
+    background-color: #d50a51;
+}
+
+.portfolio .image button.search {
+    top: 2%;
+}
+
+.portfolio .image button.heart {
+    top: 16%;
+}
+
+.portfolio .image button.comment {
+    top: 30%;
+}
+
+.portfolio .image button.download {
+    top: 44%;
+}
+
+.portfolio .image h3 {
+    position: absolute;
+    z-index: 3;
+    bottom: 11%;
+    left: 27%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.portfolio .image:hover h3 {
+    opacity: 1;
+}
+
+.portfolio .image a {
+    color: #fff;
+    position: absolute;
+    z-index: 3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0;
+    bottom: 6%;
+}
+
+.portfolio .image:hover a {
+    opacity: 1;
+}
+
+.portfolio .image a.download {
+    left: 5%;
+}
+
+.portfolio .image a.love {
+    left: 40%;
+}
+
+.portfolio .image a.comment {
+    left: 66%;
 }
