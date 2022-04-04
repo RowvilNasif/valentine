@@ -1,728 +1,799 @@
-/* ==========Default css========== */
-
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-}
-
-img {
-    vertical-align: middle;
-}
-
-ul li {
-    display: inline-block;
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    cursor: pointer;
-}
-
-
-/* ==========navbar css========== */
-
-.header {
-    background-color: #fef6fa;
-    padding-top: 11px;
-}
-
-.header ul {
-    margin-right: 21%;
-}
-
-.header ul li {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    margin-left: 10px;
-    text-transform: capitalize;
-}
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #3e3c3d;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #3e3c3d;
-    transition: all linear 3e3c3d;
-}
-
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #d50a51;
-}
-
-.header .login {
-    font-size: 15px;
-    width: 200px;
-    height: 50px;
-    border: 1px solid #d50a51;
-    border-radius: 30px;
-    background-color: transparent;
-    color: #d50a51;
-    transition: all linear .3s;
-}
-
-.header .login:hover {
-    background-color: #d50a51;
-    color: #fff;
-}
-
-.header .login i {
-    margin-right: 5px;
-    font-size: 17px;
-}
-
-
-/* ==========banner css========== */
-
-.banner {
-    padding-top: 53px;
-    background-image: url(../image/banner-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-}
-
-.banner::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgb(254, 250, 252, 0.3);
-    z-index: 2;
-}
-
-.banner .content {
-    position: relative;
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
-}
-
-.banner .writting {
-    text-align: center;
-    margin-top: 94px;
-}
-
-.banner h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 45px;
-    color: #8a5e3b;
-    text-transform: uppercase;
-    margin-bottom: -20px;
-}
-
-.banner h3 {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 400;
-    font-size: 57px;
-    color: #d50a51;
-    margin-bottom: 48px;
-}
-
-.banner p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #444;
-    margin-bottom: 62px;
-}
-
-.banner button {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    color: #d50a51;
-    width: 220px;
-    height: 58px;
-    border: 1px solid #d50a51;
-    border-radius: 30px;
-    background-color: transparent;
-    transition: all linear .3s;
-}
-
-.banner button:hover {
-    color: #fff;
-    background-color: #d50a51;
-}
-
-
-/* ==========history css========== */
-
-.history {
-    padding-top: 105px;
-    padding-bottom: 95px;
-}
-
-.history h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    color: #666;
-    text-transform: capitalize;
-}
-
-.history .writting {
-    position: relative;
-}
-
-.history .image {
-    position: absolute;
-    top: -5%;
-    left: 2%;
-}
-
-.history .heading {
-    margin-left: 10%;
-}
-
-.history h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #d50a51;
-    text-transform: capitalize;
-}
-
-.history p {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #565656;
-}
-
-.history p .para {
-    margin-bottom: 40px;
-}
-
-
-/* ==========gift css========== */
-
-.gift {
-    background-color: #fffae1;
-}
-
-.gift .content {
-    position: relative;
-}
-
-.gift .image {
-    position: absolute;
-    top: 9%;
-    left: 2%;
-}
-
-.gift .heading {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    margin-left: 50px;
-}
-
-.gift .heading h2 {
-    font-size: 18px;
-    color: #666;
-    text-transform: capitalize;
-    margin-top: 80px;
-}
-
-.gift .heading h3 {
-    font-size: 25px;
-    color: #d50a51;
-    margin-bottom: 62px;
-}
-
-.gift p {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #444;
-}
-
-.gift .buttons {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    width: 128px;
-    height: 47px;
-    margin-top: 35px;
-    border-radius: 30px;
-}
-
-.gift .buttons.send_gift {
-    margin-right: 20px;
-    width: 128px;
-    color: #fff;
-    border: 1px solid #d50a51;
-    background-color: #d50a51;
-}
-
-.gift .buttons.proposal {
-    width: 171px;
-    color: #d50a51;
-    border: 1px solid #d50a51;
-    background-color: transparent;
-    transition: all linear .3s;
-}
-
-.gift .buttons.proposal:hover {
-    background-color: #d50a51;
-    color: #fefefe;
-}
-
-.gift .flower_image {
-    position: relative;
-    right: 37%;
-    bottom: 36%;
-    margin-bottom: -212px;
-}
-
-
-/* ==========ticket css========== */
-
-.ticket {
-    padding-top: 105px;
-    padding-bottom: 95px;
-}
-
-.ticket h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    color: #666;
-    text-transform: capitalize;
-}
-
-.ticket h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #d50a51;
-    text-transform: capitalize;
-}
-
-.ticket .writting {
-    position: relative;
-    text-align: right;
-}
-
-.ticket .image {
-    position: absolute;
-    top: -6%;
-    right: 0;
-}
-
-.ticket .heading {
-    margin-right: 5%;
-}
-
-.ticket p {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #a7a7a7;
-}
-
-.ticket p .para {
-    margin-bottom: 40px;
-}
-
-.ticket .buttons {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    height: 47px;
-    margin-top: 35px;
-    border-radius: 30px;
-}
-
-.ticket .buttons.gifts {
-    margin-right: 20px;
-    width: 128px;
-    color: #fff;
-    border: 1px solid #d50a51;
-    background-color: #d50a51;
-}
-
-.ticket .buttons.quote {
-    width: 171px;
-    color: #d50a51;
-    border: 1px solid #d50a51;
-    border-radius: 30px;
-    background-color: transparent;
-    transition: all linear .3s;
-}
-
-.ticket .buttons.proposal:hover {
-    background-color: #d50a51;
-    color: #fefefe;
-}
-
-
-/* ==========service css========== */
-
-.service {
-    background-image: url(../image/offer-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px 0;
-    position: relative;
-    z-index: 1;
-}
-
-.service::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgb(254, 245, 249, 0.8);
-    z-index: 2;
-}
-
-.service .content {
-    position: relative;
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
-}
-
-.service .writting {
-    position: relative;
-}
-
-.service .image {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-}
-
-.service .heading {
-    position: relative;
-    left: 12%;
-    top: 5%;
-}
-
-.service h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    color: #666;
-    text-transform: capitalize;
-}
-
-.service h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #d50a51;
-    text-transform: capitalize;
-}
-
-.service .writting_para {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #827e7e;
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    line-height: 26px;
-}
-
-.service .items {
-    display: flex;
-    flex-direction: column;
-}
-
-.service .item {
-    padding-top: 30px;
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #827e7e;
-    transition: all linear .3s;
-}
-
-.service .item:hover {
-    background-color: #f1f1f1;
-    box-shadow: 0px 0 3px;
-}
-
-.service .item .head {
-    position: absolute;
-    left: 21%;
-    top: 26%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: #d50a51;
-}
-
-.service .item .para {
-    padding: 24px 15px 32px;
-}
-
-.service .item .service_image {
-    position: relative;
-    left: 0%;
-    top: 0%;
-}
-
-.service .item .service_image.dinner {
-    left: 4%;
-}
-
-.service .item .head.dinner {
-    left: 26%;
-}
-
-
-/* ==========portfolio css========== */
-
-.portfolio {
-    padding: 100px 0;
-}
-
-.portfolio .item {
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio .image {
-    position: relative;
-    z-index: 1;
-}
-
-.portfolio .image img {
-    width: 100%;
-}
-
-.portfolio .image::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    opacity: 0;
-    background-color: rgb(0, 0, 0, .85);
-    transition: all linear .3s;
-}
-
-.portfolio .image:hover::after {
-    opacity: 1;
-    height: 100%;
-}
-
-.portfolio .image button {
-    position: absolute;
-    right: 2%;
-    width: 44px;
-    height: 44px;
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: transparent;
-    border-radius: 50%;
-    transition: all linear .3s;
-    font-size: 20px;
-    opacity: 0;
-    z-index: 3;
-}
-
-.portfolio .image:hover button {
-    opacity: 1;
-}
-
-.portfolio .image button:hover {
-    border: 1px solid #d50a51;
-    background-color: #d50a51;
-}
-
-.portfolio .image button.search {
-    top: 2%;
-}
-
-.portfolio .image button.heart {
-    top: 16%;
-}
-
-.portfolio .image button.comment {
-    top: 30%;
-}
-
-.portfolio .image button.download {
-    top: 44%;
-}
-
-.portfolio .image h3 {
-    position: absolute;
-    z-index: 3;
-    bottom: 11%;
-    left: 27%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #fff;
-    text-transform: capitalize;
-    opacity: 0;
-    transition: all linear .3s;
-}
-
-.portfolio .image:hover h3 {
-    opacity: 1;
-}
-
-.portfolio .image a {
-    color: #fff;
-    position: absolute;
-    z-index: 3;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    opacity: 0;
-    bottom: 6%;
-}
-
-.portfolio .image:hover a {
-    opacity: 1;
-}
-
-.portfolio .image a.download {
-    left: 5%;
-}
-
-.portfolio .image a.love {
-    left: 40%;
-}
-
-.portfolio .image a.comment {
-    left: 66%;
-}
-
-.portfolio .writting {
-    position: relative;
-    text-align: right;
-}
-
-.portfolio .love_image {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-}
-
-.portfolio .heading {
-    position: absolute;
-    top: 3%;
-    right: 13%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-.portfolio h2 {
-    font-size: 18px;
-    color: #666;
-}
-
-.portfolio h3 {
-    font-size: 26px;
-    color: #d50a51;
-}
-
-.portfolio .portfolio_para {
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-    color: #444;
-}
-
-.portfolio .buttons {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    border: 1px solid #d50a51;
-    border-radius: 30px;
-    text-transform: capitalize;
-    margin-top: 35px;
-    height: 47px;
-}
-
-.portfolio .buttons.browse {
-    width: 132px;
-    background-color: #d50a51;
-    color: #fff;
-}
-
-.portfolio .buttons.upload {
-    width: 170px;
-    background-color: transparent;
-    color: #d50a51;
-    transition: all linear .3s;
-    margin-left: 22px;
-}
-
-.portfolio .buttons.upload:hover {
-    background-color: #d50a51;
-    color: #fff;
-}
-
-
-/* ==========time css========== */
-
-.time {
-    background-image: url(../image/counter-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.time .item {
-    text-align: center;
-}
-
-.time .time_image {
-    margin: 12px 0 22px;
-}
-
-.time h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    color: #d50a51;
-    line-height: 6px;
-}
-
-.time h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    color: #444;
-    margin-bottom: 30%;
-    text-transform: capitalize;
-}
+    /* ==========Default css========== */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    
+    ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    /* ==========navbar css========== */
+    
+    .header {
+        background-color: #fef6fa;
+        padding-top: 11px;
+    }
+    
+    .header ul {
+        margin-right: 21%;
+    }
+    
+    .header ul li {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        margin-left: 10px;
+        text-transform: capitalize;
+    }
+    
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: #3e3c3d;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #3e3c3d;
+        transition: all linear 3e3c3d;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #d50a51;
+    }
+    
+    .header .login {
+        font-size: 15px;
+        width: 200px;
+        height: 50px;
+        border: 1px solid #d50a51;
+        border-radius: 30px;
+        background-color: transparent;
+        color: #d50a51;
+        transition: all linear .3s;
+    }
+    
+    .header .login:hover {
+        background-color: #d50a51;
+        color: #fff;
+    }
+    
+    .header .login i {
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    /* ==========banner css========== */
+    
+    .banner {
+        padding-top: 53px;
+        background-image: url(../image/banner-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .banner::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(254, 250, 252, 0.3);
+        z-index: 2;
+    }
+    
+    .banner .content {
+        position: relative;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .banner .writting {
+        text-align: center;
+        margin-top: 94px;
+    }
+    
+    .banner h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 45px;
+        color: #8a5e3b;
+        text-transform: uppercase;
+        margin-bottom: -20px;
+    }
+    
+    .banner h3 {
+        font-family: 'Great Vibes', cursive;
+        font-weight: 400;
+        font-size: 57px;
+        color: #d50a51;
+        margin-bottom: 48px;
+    }
+    
+    .banner p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #444;
+        margin-bottom: 62px;
+    }
+    
+    .banner button {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        color: #d50a51;
+        width: 220px;
+        height: 58px;
+        border: 1px solid #d50a51;
+        border-radius: 30px;
+        background-color: transparent;
+        transition: all linear .3s;
+    }
+    
+    .banner button:hover {
+        color: #fff;
+        background-color: #d50a51;
+    }
+    /* ==========history css========== */
+    
+    .history {
+        padding-top: 105px;
+        padding-bottom: 95px;
+    }
+    
+    .history h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        color: #666;
+        text-transform: capitalize;
+    }
+    
+    .history .writting {
+        position: relative;
+    }
+    
+    .history .image {
+        position: absolute;
+        top: -5%;
+        left: 2%;
+    }
+    
+    .history .heading {
+        margin-left: 10%;
+    }
+    
+    .history h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #d50a51;
+        text-transform: capitalize;
+    }
+    
+    .history p {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #565656;
+    }
+    
+    .history p .para {
+        margin-bottom: 40px;
+    }
+    /* ==========gift css========== */
+    
+    .gift {
+        background-color: #fffae1;
+    }
+    
+    .gift .content {
+        position: relative;
+    }
+    
+    .gift .image {
+        position: absolute;
+        top: 9%;
+        left: 2%;
+    }
+    
+    .gift .heading {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        margin-left: 50px;
+    }
+    
+    .gift .heading h2 {
+        font-size: 18px;
+        color: #666;
+        text-transform: capitalize;
+        margin-top: 80px;
+    }
+    
+    .gift .heading h3 {
+        font-size: 25px;
+        color: #d50a51;
+        margin-bottom: 62px;
+    }
+    
+    .gift p {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #444;
+    }
+    
+    .gift .buttons {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        width: 128px;
+        height: 47px;
+        margin-top: 35px;
+        border-radius: 30px;
+    }
+    
+    .gift .buttons.send_gift {
+        margin-right: 20px;
+        width: 128px;
+        color: #fff;
+        border: 1px solid #d50a51;
+        background-color: #d50a51;
+    }
+    
+    .gift .buttons.proposal {
+        width: 171px;
+        color: #d50a51;
+        border: 1px solid #d50a51;
+        background-color: transparent;
+        transition: all linear .3s;
+    }
+    
+    .gift .buttons.proposal:hover {
+        background-color: #d50a51;
+        color: #fefefe;
+    }
+    
+    .gift .flower_image {
+        position: relative;
+        right: 37%;
+        bottom: 36%;
+        margin-bottom: -212px;
+    }
+    /* ==========ticket css========== */
+    
+    .ticket {
+        padding-top: 105px;
+        padding-bottom: 95px;
+    }
+    
+    .ticket h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        color: #666;
+        text-transform: capitalize;
+    }
+    
+    .ticket h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #d50a51;
+        text-transform: capitalize;
+    }
+    
+    .ticket .writting {
+        position: relative;
+        text-align: right;
+    }
+    
+    .ticket .image {
+        position: absolute;
+        top: -6%;
+        right: 0;
+    }
+    
+    .ticket .heading {
+        margin-right: 5%;
+    }
+    
+    .ticket p {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #a7a7a7;
+    }
+    
+    .ticket p .para {
+        margin-bottom: 40px;
+    }
+    
+    .ticket .buttons {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        height: 47px;
+        margin-top: 35px;
+        border-radius: 30px;
+    }
+    
+    .ticket .buttons.gifts {
+        margin-right: 20px;
+        width: 128px;
+        color: #fff;
+        border: 1px solid #d50a51;
+        background-color: #d50a51;
+    }
+    
+    .ticket .buttons.quote {
+        width: 171px;
+        color: #d50a51;
+        border: 1px solid #d50a51;
+        border-radius: 30px;
+        background-color: transparent;
+        transition: all linear .3s;
+    }
+    
+    .ticket .buttons.proposal:hover {
+        background-color: #d50a51;
+        color: #fefefe;
+    }
+    /* ==========service css========== */
+    
+    .service {
+        background-image: url(../image/offer-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 0;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .service::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(254, 245, 249, 0.8);
+        z-index: 2;
+    }
+    
+    .service .content {
+        position: relative;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .service .writting {
+        position: relative;
+    }
+    
+    .service .image {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+    
+    .service .heading {
+        position: relative;
+        left: 12%;
+        top: 5%;
+    }
+    
+    .service h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        color: #666;
+        text-transform: capitalize;
+    }
+    
+    .service h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #d50a51;
+        text-transform: capitalize;
+    }
+    
+    .service .writting_para {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #827e7e;
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        line-height: 26px;
+    }
+    
+    .service .items {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .service .item {
+        padding-top: 30px;
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #827e7e;
+        transition: all linear .3s;
+    }
+    
+    .service .item:hover {
+        background-color: #f1f1f1;
+        box-shadow: 0px 0 3px;
+    }
+    
+    .service .item .head {
+        position: absolute;
+        left: 21%;
+        top: 26%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #d50a51;
+    }
+    
+    .service .item .para {
+        padding: 24px 15px 32px;
+    }
+    
+    .service .item .service_image {
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+    
+    .service .item .service_image.dinner {
+        left: 4%;
+    }
+    
+    .service .item .head.dinner {
+        left: 26%;
+    }
+    /* ==========portfolio css========== */
+    
+    .portfolio {
+        padding: 100px 0;
+    }
+    
+    .portfolio .item {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .portfolio .image {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .portfolio .image img {
+        width: 100%;
+    }
+    
+    .portfolio .image::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        opacity: 0;
+        background-color: rgb(0, 0, 0, .85);
+        transition: all linear .3s;
+    }
+    
+    .portfolio .image:hover::after {
+        opacity: 1;
+        height: 100%;
+    }
+    
+    .portfolio .image button {
+        position: absolute;
+        right: 2%;
+        width: 44px;
+        height: 44px;
+        border: 1px solid #fff;
+        color: #fff;
+        background-color: transparent;
+        border-radius: 50%;
+        transition: all linear .3s;
+        font-size: 20px;
+        opacity: 0;
+        z-index: 3;
+    }
+    
+    .portfolio .image:hover button {
+        opacity: 1;
+    }
+    
+    .portfolio .image button:hover {
+        border: 1px solid #d50a51;
+        background-color: #d50a51;
+    }
+    
+    .portfolio .image button.search {
+        top: 2%;
+    }
+    
+    .portfolio .image button.heart {
+        top: 16%;
+    }
+    
+    .portfolio .image button.comment {
+        top: 30%;
+    }
+    
+    .portfolio .image button.download {
+        top: 44%;
+    }
+    
+    .portfolio .image h3 {
+        position: absolute;
+        z-index: 3;
+        bottom: 11%;
+        left: 27%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        text-transform: capitalize;
+        opacity: 0;
+        transition: all linear .3s;
+    }
+    
+    .portfolio .image:hover h3 {
+        opacity: 1;
+    }
+    
+    .portfolio .image a {
+        color: #fff;
+        position: absolute;
+        z-index: 3;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        opacity: 0;
+        bottom: 6%;
+    }
+    
+    .portfolio .image:hover a {
+        opacity: 1;
+    }
+    
+    .portfolio .image a.download {
+        left: 5%;
+    }
+    
+    .portfolio .image a.love {
+        left: 40%;
+    }
+    
+    .portfolio .image a.comment {
+        left: 66%;
+    }
+    
+    .portfolio .writting {
+        position: relative;
+        text-align: right;
+    }
+    
+    .portfolio .love_image {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    
+    .portfolio .heading {
+        position: absolute;
+        top: 3%;
+        right: 13%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .portfolio h2 {
+        font-size: 18px;
+        color: #666;
+    }
+    
+    .portfolio h3 {
+        font-size: 26px;
+        color: #d50a51;
+    }
+    
+    .portfolio .portfolio_para {
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #444;
+    }
+    
+    .portfolio .buttons {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        border: 1px solid #d50a51;
+        border-radius: 30px;
+        text-transform: capitalize;
+        margin-top: 35px;
+        height: 47px;
+    }
+    
+    .portfolio .buttons.browse {
+        width: 132px;
+        background-color: #d50a51;
+        color: #fff;
+    }
+    
+    .portfolio .buttons.upload {
+        width: 170px;
+        background-color: transparent;
+        color: #d50a51;
+        transition: all linear .3s;
+        margin-left: 22px;
+    }
+    
+    .portfolio .buttons.upload:hover {
+        background-color: #d50a51;
+        color: #fff;
+    }
+    /* ==========time css========== */
+    
+    .time {
+        background-image: url(../image/counter-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .time .item {
+        text-align: center;
+    }
+    
+    .time .time_image {
+        margin: 12px 0 22px;
+    }
+    
+    .time h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #d50a51;
+        line-height: 6px;
+    }
+    
+    .time h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        color: #444;
+        margin-bottom: 30%;
+        text-transform: capitalize;
+    }
+    /* ========== testimonial css ========== */
+    
+    .testimonial .item {
+        position: relative;
+    }
+    
+    .testimonial .testimonial_image_top {
+        margin-top: 102px;
+        position: absolute;
+        left: 0%;
+    }
+    
+    .testimonial .writting {
+        background-color: #fffae2;
+        position: absolute;
+        left: 7%;
+        margin-top: 142px;
+    }
+    
+    .testimonial .item p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #444;
+        padding: 43px 59px 26px 30px;
+    }
+    
+    .testimonial .person {
+        display: flex;
+        padding-bottom: 30px;
+    }
+    
+    .testimonial .person_image {
+        clip-path: circle(50% at 50% 50%);
+        margin-left: 30px;
+    }
+    
+    .testimonial .description {
+        text-transform: capitalize;
+        margin: 30px 0 0 22px;
+    }
+    
+    .testimonial h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        color: #222;
+    }
+    
+    .testimonial h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #444;
+    }
+    
+    .testimonial .testimonial_image_bottom {
+        position: relative;
+        left: 96%;
+        margin-top: 409px;
+    }
+    
+    .testimonial .buttons {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid #d50a51;
+        border-radius: 50%;
+        color: #d50a51;
+        transition: all linear .3s;
+        position: relative;
+    }
+    
+    .testimonial .buttons:hover {
+        background-color: #d50a51;
+        color: #fff;
+    }
+    
+    .testimonial .buttons.previous-service {
+        top: 0%;
+        left: 0%;
+    }
+    
+    .testimonial .buttons.next-service {
+        top: 0%;
+        right: 0%;
+    }
