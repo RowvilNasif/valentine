@@ -620,3 +620,74 @@ button {
 .portfolio .image a.comment {
     left: 66%;
 }
+
+.portfolio .writting {
+    position: relative;
+    text-align: right;
+}
+
+.portfolio .love_image {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.portfolio .heading {
+    position: absolute;
+    top: 3%;
+    right: 13%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.portfolio h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+.portfolio h3 {
+    font-size: 26px;
+    color: #d50a51;
+}
+
+.portfolio .portfolio_para {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #444;
+}
+
+.portfolio .buttons {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    text-transform: capitalize;
+    margin-top: 35px;
+    height: 47px;
+}
+
+.portfolio .buttons.browse {
+    width: 132px;
+    background-color: #d50a51;
+    color: #fff;
+}
+
+.portfolio .buttons.upload {
+    width: 170px;
+    background-color: transparent;
+    color: #d50a51;
+    transition: all linear .3s;
+    margin-left: 22px;
+}
+
+.portfolio .buttons.upload:hover {
+    background-color: #d50a51;
+    color: #fff;
+}
