@@ -691,3 +691,38 @@ button {
     background-color: #d50a51;
     color: #fff;
 }
+
+
+/* ==========time css========== */
+
+.time {
+    background-image: url(../image/counter-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time .item {
+    text-align: center;
+}
+
+.time .time_image {
+    margin: 12px 0 22px;
+}
+
+.time h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #d50a51;
+    line-height: 6px;
+}
+
+.time h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 30%;
+    text-transform: capitalize;
+}
