@@ -867,7 +867,10 @@
     /* ==========contact css========== */
     
     .contact {
-        background-color: #fdf0f6;
+        background-image: url(../image/footer1-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .contact .image {
