@@ -341,6 +341,7 @@
         height: 47px;
         margin-top: 35px;
         border-radius: 30px;
+        text-transform: capitalize;
     }
     
     .ticket .buttons.gifts {
@@ -360,7 +361,7 @@
         transition: all linear .3s;
     }
     
-    .ticket .buttons.proposal:hover {
+    .ticket .buttons.quote:hover {
         background-color: #d50a51;
         color: #fefefe;
     }
@@ -712,21 +713,37 @@
     }
     /* ========== testimonial css ========== */
     
-    .testimonial .item {
+    .testimonial_row {
         position: relative;
-    }
-    
-    .testimonial .testimonial_image_top {
-        margin-top: 102px;
-        position: absolute;
-        left: 0%;
     }
     
     .testimonial .writting {
         background-color: #fffae2;
+    }
+    
+    .testimonial_image_bottom {
         position: absolute;
-        left: 7%;
-        margin-top: 142px;
+        bottom: -11%;
+        right: 6%;
+    }
+    
+    .testimonial_image_top {
+        position: absolute;
+        top: 13%;
+        left: 6%;
+    }
+    
+    .testimonial_image_arrows {
+        position: absolute;
+        top: 56%;
+    }
+    
+    .testimonial_image_arrows.previous-service {
+        left: 5%;
+    }
+    
+    .testimonial_image_arrows.next-service {
+        right: 5%;
     }
     
     .testimonial .item p {
@@ -735,6 +752,7 @@
         font-size: 13px;
         color: #444;
         padding: 43px 59px 26px 30px;
+        margin-top: 88px;
     }
     
     .testimonial .person {
@@ -766,12 +784,6 @@
         color: #444;
     }
     
-    .testimonial .testimonial_image_bottom {
-        position: relative;
-        left: 96%;
-        margin-top: 409px;
-    }
-    
     .testimonial .buttons {
         width: 40px;
         height: 40px;
@@ -780,20 +792,161 @@
         border-radius: 50%;
         color: #d50a51;
         transition: all linear .3s;
-        position: relative;
     }
     
     .testimonial .buttons:hover {
         background-color: #d50a51;
         color: #fff;
     }
+    /* ==========form css========== */
     
-    .testimonial .buttons.previous-service {
-        top: 0%;
-        left: 0%;
+    .form .form_row {
+        background-color: #d50a51;
+        border: 1px solid #d50a51;
+        border-radius: 88px;
+        margin-top: 99px;
     }
     
-    .testimonial .buttons.next-service {
-        top: 0%;
-        right: 0%;
+    .form .airo {
+        color: #fff;
+        font-size: 56px;
+        line-height: 112px;
+    }
+    
+    .form h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    .form h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .form .left_part {
+        display: flex;
+    }
+    
+    .form .writting {
+        margin: 30px 0 0 10px;
+    }
+    
+    .form .form-control {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #fff;
+        background-color: transparent;
+        margin-top: 46px;
+    }
+    
+    .form-control::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+    
+    .form .super {
+        position: relative;
+    }
+    
+    .form .form_button {
+        position: absolute;
+        right: 4%;
+        top: 40.5%;
+        background-color: transparent;
+        color: #fff;
+        height: 36px;
+        width: 40px;
+        border: 1px solid #fff;
+    }
+    /* ==========contact css========== */
+    
+    .contact {
+        background-color: #fdf0f6;
+    }
+    
+    .contact .image {
+        text-align: center;
+        margin-top: 88px;
+    }
+    
+    .contact .item {
+        display: flex;
+        margin: 58px 0 60px;
+    }
+    
+    .contact .writting p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #656263;
+        display: flex;
+        flex-direction: column;
+        margin: 6px 0px 0 11px;
+    }
+    
+    .contact button.images {
+        font-size: 25px;
+        color: #fff;
+        background-color: #d50a51;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #d50a51;
+        border-radius: 50%;
+    }
+    
+    .contact .heading h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        color: #d50a51;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .contact button.links {
+        font-size: 18px;
+        color: #d50a51;
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #d50a51;
+        border-radius: 50%;
+        transition: all linear .3s;
+        margin-right: 10px;
+    }
+    
+    .contact button.links:hover {
+        color: #fff;
+        background-color: #d50a51;
+    }
+    
+    .contact .social_link {
+        margin-left: 4%;
+        margin-bottom: 26px;
+    }
+    
+    .footer {
+        text-align: center;
+        background-color: #fce1ed;
+    }
+    
+    .footer p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #8e8287;
+        line-height: 31px;
+        margin-top: 2%;
+    }
+    
+    .footer p .name {
+        color: #d50a51;
+        text-transform: uppercase;
     }

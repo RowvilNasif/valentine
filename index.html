@@ -21,7 +21,7 @@
     <!-- opensans font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <!-- lokesh dhaker -->
     <link rel="stylesheet" href="./public/assets/css/lightbox.min.css">
     <!-- slick css -->
@@ -180,8 +180,8 @@
                         <span>in reprehenderit in voluptate velit esse.cillum dolore eu fugiat nulla pariatur. Excepteur
                             sint occaecat cupidatat non proident, sunt in culpa qui officia. deserunt mollit</span>
                     </p>
-                    <button class="buttons gifts">Send gifts</button>
-                    <button class="buttons quote">Send proposal</button>
+                    <button class="buttons gifts">get ticket</button>
+                    <button class="buttons quote">get quoate</button>
                 </div>
             </div>
         </div>
@@ -330,132 +330,112 @@
     </div>
     <!-- portfolio end -->
     <!-- time start -->
-    <div class="time">
+    <div class="time countdown show" data-Date='2023/02/14 13:37:53'>
         <div class="container">
-            <div class="row">
-                <div class="item col-3">
-                    <div class="time_image">
-                        <img src="./public/assets/image/counter-icon1.png" alt="">
+            <div class="row running">
+                <timer class="row">
+                    <div class="item col-3">
+                        <div class="time_image">
+                            <img src="./public/assets/image/counter-icon1.png" alt="">
+                        </div>
+                        <h2><span class="days"></span></h2>
+                        <h3>days</h3>
                     </div>
-                    <h2>365</h2>
-                    <h3>days</h3>
-                </div>
-                <div class="item col-3">
-                    <div class="time_image">
-                        <img src="./public/assets/image/counter-icon2.png" alt="">
+                    <div class="item col-3">
+                        <div class="time_image">
+                            <img src="./public/assets/image/counter-icon2.png" alt="">
+                        </div>
+                        <h2><span class="hours"></span></h2>
+                        <h3>hours</h3>
                     </div>
-                    <h2>23</h2>
-                    <h3>hours</h3>
-                </div>
-                <div class="item col-3">
-                    <div class="time_image">
-                        <img src="./public/assets/image/counter-icon1.png" alt="">
+                    <div class="item col-3">
+                        <div class="time_image">
+                            <img src="./public/assets/image/counter-icon1.png" alt="">
+                        </div>
+                        <h2><span class="minutes"></span></h2>
+                        <h3>mins</h3>
                     </div>
-                    <h2>59</h2>
-                    <h3>mins</h3>
-                </div>
-                <div class="item col-3">
-                    <div class="time_image">
-                        <img src="./public/assets/image/counter-icon2.png" alt="">
+                    <div class="item col-3">
+                        <div class="time_image">
+                            <img src="./public/assets/image/counter-icon2.png" alt="">
+                        </div>
+                        <h2><span class="seconds"></span></h2>
+                        <h3>secs</h3>
                     </div>
-                    <h2>59</h2>
-                    <h3>secs</h3>
-                </div>
+                </timer>
             </div>
         </div>
     </div>
     <!-- time end -->
     <!-- testimonial start-- -->
-    <div class="testimonial">
+    <div class="testimonial testimonial_row">
         <div class="container">
-            <div class="row">
-                <div class="d-flex justify-content-between">
-                    <button type="button" class="buttons previous-service"><i class="fa fa-chevron-left"></i></button>
-                    <button type="button" class="buttons next-service"><i class="fa fa-chevron-right"></i></button>
+            <button type="button" class="buttons testimonial_image_arrows previous-service "><i class="fa fa-chevron-left"></i></button>
+            <button type="button" class="buttons testimonial_image_arrows next-service "><i class="fa fa-chevron-right"></i></button>
+            <div class="testimonial_image_bottom">
+                <img src="./public/assets/image/testimonial-bottom-right.png" alt="">
+            </div>
+            <div class="testimonial_image_top">
+                <img src="./public/assets/image/testimonial-top-left.png" alt="">
+            </div>
+            <div class="testimonial-slick">
+                <div class="item">
+                    <div class="writting">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute irure
+                            dolor in reprehenderit .</p>
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="./public/assets/image/testimonial-1.jpg" alt="">
+                            </div>
+                            <div class="description">
+                                <h2>harry</h2>
+                                <h3>chief exicutive</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="testimonial-slick">
-                    <div class="item">
-                        <div class="testimonial_image_top">
-                            <img src="./public/assets/image/testimonial-top-left.png" alt="">
-                        </div>
-                        <div class="writting">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute
-                                irure dolor in reprehenderit .</p>
-                            <div class="person">
-                                <div class="person_image">
-                                    <img src="./public/assets/image/testimonial-1.jpg" alt="">
-                                </div>
-                                <div class="description">
-                                    <h2>harry</h2>
-                                    <h3>chief exicutive</h3>
-                                </div>
+                <div class="item">
+                    <div class="writting">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute irure
+                            dolor in reprehenderit .</p>
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="./public/assets/image/testimonial-2.jpg" alt="">
                             </div>
-                        </div>
-                        <div class="testimonial_image_bottom">
-                            <img src="./public/assets/image/testimonial-bottom-right.png" alt="">
+                            <div class="description">
+                                <h2>harry</h2>
+                                <h3>chief exicutive</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="testimonial_image_top">
-                            <img src="./public/assets/image/testimonial-top-left.png" alt="">
-                        </div>
-                        <div class="writting">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute
-                                irure dolor in reprehenderit .</p>
-                            <div class="person">
-                                <div class="person_image">
-                                    <img src="./public/assets/image/testimonial-2.jpg" alt="">
-                                </div>
-                                <div class="description">
-                                    <h2>harry</h2>
-                                    <h3>chief exicutive</h3>
-                                </div>
+                </div>
+                <div class="item">
+                    <div class="writting">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute irure
+                            dolor in reprehenderit .</p>
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="./public/assets/image/testimonial-3.jpg" alt="">
                             </div>
-                        </div>
-                        <div class="testimonial_image_bottom">
-                            <img src="./public/assets/image/testimonial-bottom-right.png" alt="">
+                            <div class="description">
+                                <h2>harry</h2>
+                                <h3>chief exicutive</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="testimonial_image_top">
-                            <img src="./public/assets/image/testimonial-top-left.png" alt="">
-                        </div>
-                        <div class="writting">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute
-                                irure dolor in reprehenderit .</p>
-                            <div class="person">
-                                <div class="person_image">
-                                    <img src="./public/assets/image/testimonial-3.jpg" alt="">
-                                </div>
-                                <div class="description">
-                                    <h2>harry</h2>
-                                    <h3>chief exicutive</h3>
-                                </div>
+                </div>
+                <div class="item">
+                    <div class="writting">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute irure
+                            dolor in reprehenderit .</p>
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="./public/assets/image/testimonial-4.jpg" alt="">
                             </div>
-                        </div>
-                        <div class="testimonial_image_bottom">
-                            <img src="./public/assets/image/testimonial-bottom-right.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial_image_top">
-                            <img src="./public/assets/image/testimonial-top-left.png" alt="">
-                        </div>
-                        <div class="writting">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do mod temporidunt ut labore et dolore magna aliqua. Ut enim ad minimm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eamodo consequat. Duis aute
-                                irure dolor in reprehenderit .</p>
-                            <div class="person">
-                                <div class="person_image">
-                                    <img src="./public/assets/image/testimonial-4.jpg" alt="">
-                                </div>
-                                <div class="description">
-                                    <h2>harry</h2>
-                                    <h3>chief exicutive</h3>
-                                </div>
+                            <div class="description">
+                                <h2>harry</h2>
+                                <h3>chief exicutive</h3>
                             </div>
-                        </div>
-                        <div class="testimonial_image_bottom">
-                            <img src="./public/assets/image/testimonial-bottom-right.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -463,6 +443,99 @@
         </div>
     </div>
     <!-- testimonial end -->
+    <!-- form start -->
+    <div class="form">
+        <div class="container">
+            <div class="row form_row">
+                <div class="col-1"></div>
+                <div class="col-4 left_part">
+                    <div class="airo">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="writting">
+                        <h3>newsletter</h3>
+                        <h2>The latest from Valentina, Write your inbox</h2>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <input class="form-control " type="name" placeholder="Your Name" id="fullname">
+                </div>
+                <div class="col-3 super">
+                    <input class="form-control " type="email" placeholder="Your e-mail" id="email">
+                    <button class="form_button">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form end -->
+    <!-- contact start -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="image">
+                        <img src="./public/assets/image/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 item">
+                    <button class="images"><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+                    <div class="writting">
+                        <p>
+                            <span>1234, Park Street Avenue</span> California, America.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 item">
+                    <button class="images"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                    <div class="writting">
+                        <p>
+                            <span>rowvilnasif@gmail.com</span>bedsidekitchen@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 item">
+                    <button class="images"><i class="fa fa-globe" aria-hidden="true"></i></button>
+                    <div class="writting">
+                        <p>
+                            <span>www.kerstmis-christmas.com</span>
+                            <span>www.christmas-kerstmis.com</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="heading col-12">
+                    <h3>follow us</h3>
+                </div>
+                <div class="col-4"></div>
+                <div class="social_link col-4">
+                    <button class="links"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                    <button class="links"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                    <button class="links"><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                    <button class="links"><i class="fa fa-pinterest-p" aria-hidden="true"></i></button>
+                    <button class="links"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact end -->
+    <!-- footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Copyright &copy; <span id="current_year">year</span>.All right reserved by <span class="name">designer</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+
     <!-- jquery js -->
     <script src="./public/assets/js/jquery-1.12.4.min.js"></script>
     <!-- bootstrap js -->
@@ -471,6 +544,8 @@
     <script src="./public/assets/js/lightbox.min.js"></script>
     <!-- slick js -->
     <script src="./public/assets/js/slick.min.js"></script>
+    <!-- Count Down Timer js -->
+    <script src="./public/assets/js/multi-countdown.js"></script>
     <!-- custome js -->
     <script src="./public/assets/js/main.js"></script>
 </body>
