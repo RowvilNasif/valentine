@@ -15,4 +15,7 @@
     const date = new Date();
     const currentYear = document.querySelector('#current_year');
     currentYear.textContent = date.getFullYear();
+
+
+
 })();

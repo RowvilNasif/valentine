@@ -11,3 +11,24 @@
         margin-right: 10%;
     }
 }
+
+@media(max-width: 991px) {
+    .banner .content {
+        flex-direction: column;
+    }
+    .gift .flower_image {
+        max-width: 450px;
+    }
+}
+
+@media(max-width: 767px) {
+    .gift .flower_image {
+        max-width: 767px;
+    }
+}
+
+@media(max-width: 575px) {
+    .gift .flower_image {
+        max-width: 575px;
+    }
+}
