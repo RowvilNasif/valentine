@@ -12,23 +12,168 @@
     }
 }
 
-@media(max-width: 991px) {
-    .banner .content {
-        flex-direction: column;
-    }
-    .gift .flower_image {
-        max-width: 450px;
-    }
-}
+@media(max-width: 991px) {}
 
-@media(max-width: 767px) {
-    .gift .flower_image {
-        max-width: 767px;
-    }
-}
+@media(max-width: 767px) {}
 
 @media(max-width: 575px) {
-    .gift .flower_image {
-        max-width: 575px;
+    button {
+        width: 127px;
+        height: 39px;
+    }
+    .banner .content img {
+        width: 109%;
+    }
+    .banner h1 {
+        font-size: 30px;
+    }
+    .banner h3 {
+        font-size: 38px;
+        margin-bottom: 2px;
+    }
+    .banner p {
+        margin-bottom: 26px;
+    }
+    .banner button {
+        font-size: 12px;
+    }
+    .banner .writting {
+        margin-top: 38px;
+    }
+    .history {
+        padding: 22px 0;
+    }
+    .history .person img {
+        width: 73%;
+    }
+    .history h2 {
+        font-size: 17px;
+    }
+    .history h3 {
+        font-size: 23px;
+    }
+    .history .writting img {
+        width: 80%;
+    }
+    .history .image {
+        top: -6%;
+        left: 4%;
+    }
+    .history p {
+        font-size: 13px;
+    }
+    .gift .image {
+        top: 16%;
+        left: 4%;
+    }
+    .gift .heading h3 {
+        font-size: 19px;
+        margin-bottom: 19px;
+    }
+    .gift .content img {
+        width: 82%;
+    }
+    .gift .flower_image img {
+        width: 102%;
+        margin-left: 21%;
+    }
+    .gift .buttons {
+        font-size: 14px;
+        margin-top: 9px;
+    }
+    .ticket {
+        padding: 22px 0;
+    }
+    .ticket .ticket_image img {
+        width: 78%;
+    }
+    .ticket h2 {
+        font-size: 17px;
+    }
+    .ticket h3 {
+        font-size: 19px;
+    }
+    .ticket .buttons {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .ticket .love img {
+        width: 80%;
+    }
+    .service {
+        padding: 35px 0;
+    }
+    .service .items {
+        display: inline-block;
+    }
+    .service .content {
+        display: block;
+    }
+    .service h2 {
+        font-size: 17px;
+    }
+    .service h3 {
+        font-size: 20px;
+    }
+    .service .love.image {
+        left: 5%;
+        top: -9%;
+    }
+    .service .love.image img {
+        width: 80%;
+    }
+    .service .writting_para {
+        font-size: 13px;
+        margin-top: 17px;
+    }
+    .service .item .service_image {
+        left: 2%;
+    }
+    .portfolio {
+        padding: 50px 0;
+    }
+    .portfolio .image img {
+        width: 67%;
+    }
+    .portfolio .image button {
+        right: 35%;
+        width: 37px;
+        height: 37px;
+        font-size: 15px;
+    }
+    .portfolio .image::after {
+        width: 67%;
+    }
+    .portfolio .image h3 {
+        left: 20%;
+        font-size: 15px;
+    }
+    .portfolio .image a {
+        font-size: 12px;
+    }
+    .portfolio .image a.download {
+        left: 2%;
+    }
+    .portfolio .image a.love {
+        left: 26%;
+    }
+    .portfolio .image a.comment {
+        left: 46%;
+    }
+    .portfolio .writting {
+        text-align: left;
+    }
+    .portfolio .heading {
+        text-align: right;
+    }
+    .portfolio h3 {
+        font-size: 20px;
+    }
+    .portfolio .love_image img {
+        width: 86%;
+    }
+    .portfolio .love_image {
+        top: -3%;
+        right: 3%;
     }
 }

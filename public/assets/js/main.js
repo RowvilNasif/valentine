@@ -4,11 +4,16 @@
             infinite: true,
             slidesToShow: 2,
             slidesToScroll: 2,
-            autoplay: false,
-            autoplaySpeed: 3000,
             arrows: true,
             prevArrow: $(".previous-service"),
             nextArrow: $(".next-service"),
+            responsive: [{
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            }, ],
         });
     });
 

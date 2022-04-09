@@ -21,6 +21,8 @@
     
     button {
         cursor: pointer;
+        width: 220px;
+        height: 58px;
     }
     /* ==========navbar css========== */
     
@@ -143,8 +145,6 @@
         font-weight: 600;
         font-size: 19px;
         color: #d50a51;
-        width: 220px;
-        height: 58px;
         border: 1px solid #d50a51;
         border-radius: 30px;
         background-color: transparent;
@@ -252,22 +252,18 @@
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
         font-size: 17px;
-        width: 128px;
-        height: 47px;
         margin-top: 35px;
         border-radius: 30px;
     }
     
     .gift .buttons.send_gift {
         margin-right: 20px;
-        width: 128px;
         color: #fff;
         border: 1px solid #d50a51;
         background-color: #d50a51;
     }
     
     .gift .buttons.proposal {
-        width: 171px;
         color: #d50a51;
         border: 1px solid #d50a51;
         background-color: transparent;
@@ -340,7 +336,6 @@
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
         font-size: 17px;
-        height: 47px;
         margin-top: 35px;
         border-radius: 30px;
         text-transform: capitalize;
@@ -348,14 +343,12 @@
     
     .ticket .buttons.gifts {
         margin-right: 20px;
-        width: 128px;
         color: #fff;
         border: 1px solid #d50a51;
         background-color: #d50a51;
     }
     
     .ticket .buttons.quote {
-        width: 171px;
         color: #d50a51;
         border: 1px solid #d50a51;
         border-radius: 30px;
@@ -659,17 +652,14 @@
         border-radius: 30px;
         text-transform: capitalize;
         margin-top: 35px;
-        height: 47px;
     }
     
     .portfolio .buttons.browse {
-        width: 132px;
         background-color: #d50a51;
         color: #fff;
     }
     
     .portfolio .buttons.upload {
-        width: 170px;
         background-color: transparent;
         color: #d50a51;
         transition: all linear .3s;
@@ -729,6 +719,10 @@
         position: absolute;
         bottom: -15%;
         right: 13%;
+    }
+    
+    .testimonial .item {
+        position: relative;
     }
     
     .testimonial_image_top {
