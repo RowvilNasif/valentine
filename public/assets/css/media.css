@@ -14,10 +14,203 @@
 
 @media(max-width: 991px) {}
 
-@media(max-width: 767px) {}
+@media(max-width: 767px) {
+    .banner .content img {
+        width: 117%;
+    }
+    .banner h1 {
+        font-size: 30px;
+    }
+    .banner h3 {
+        font-size: 38px;
+        margin-bottom: 2px;
+        margin-top: 14px;
+    }
+    .banner p {
+        margin-bottom: 26px;
+    }
+    .banner button {
+        font-size: 12px;
+    }
+    .banner .writting {
+        margin-top: 10px;
+    }
+    .banner .writting {
+        text-align: right;
+        margin-top: 9px;
+    }
+    button.regular {
+        width: 127px;
+        height: 39px;
+    }
+    .history {
+        padding: 22px 0;
+    }
+    .history .person img {
+        width: 78%;
+    }
+    .history .image {
+        position: absolute;
+        top: -7%;
+        left: 3%;
+    }
+    .gift .image {
+        top: 15%;
+        left: 5%;
+    }
+    .gift .content img {
+        width: 82%;
+    }
+    .gift .flower_image img {
+        width: 93%;
+        margin-left: 25%;
+    }
+    .gift .heading h3 {
+        margin-bottom: 32px;
+    }
+    .ticket {
+        padding-top: 16px;
+        padding-bottom: 28px;
+    }
+    .ticket .ticket_image img {
+        width: 82%;
+    }
+    .ticket .love img {
+        width: 86%;
+    }
+    .service {
+        padding: 35px 0;
+    }
+    .service .items {
+        display: inline-block;
+    }
+    .service .content {
+        display: block;
+    }
+    .service h2 {
+        font-size: 17px;
+    }
+    .service h3 {
+        font-size: 20px;
+    }
+    .service .love.image {
+        left: 6%;
+        top: -3%;
+    }
+    .service .love.image img {
+        width: 84%;
+    }
+    .service .writting_para {
+        font-size: 13px;
+        margin-top: 17px;
+    }
+    .service .item .service_image {
+        left: 2%;
+    }
+    .service .item .head {
+        left: 28%;
+        top: 23%;
+    }
+    .service .item .head.dinner {
+        left: 36%;
+    }
+    .portfolio {
+        padding: 50px 0;
+    }
+    .portfolio .image img {
+        width: 71%;
+    }
+    .portfolio .image button {
+        right: 32%;
+        width: 42px;
+        height: 42px;
+        font-size: 19px;
+    }
+    .portfolio .image::after {
+        width: 71%;
+    }
+    .portfolio .image h3 {
+        left: 24%;
+        font-size: 15px;
+    }
+    .portfolio .image a {
+        font-size: 12px;
+    }
+    .portfolio .image a.download {
+        left: 3%;
+    }
+    .portfolio .image a.love {
+        left: 29%;
+    }
+    .portfolio .image a.comment {
+        left: 48%;
+    }
+    .portfolio .writting {
+        text-align: left;
+    }
+    .portfolio .heading {
+        text-align: right;
+    }
+    .portfolio h3 {
+        font-size: 20px;
+    }
+    .portfolio .love_image img {
+        width: 86%;
+    }
+    .portfolio .love_image {
+        top: -3%;
+        right: 3%;
+    }
+    .testimonial_image_top {
+        top: 13%;
+        left: 11%;
+    }
+    .testimonial_image_bottom {
+        bottom: -11%;
+        right: 11%;
+    }
+    .form .airo {
+        font-size: 25px;
+        line-height: 93px;
+    }
+    .form h3 {
+        font-size: 17px;
+    }
+    .form h2 {
+        font-size: 11px;
+    }
+    .form .form-control {
+        margin: 0 15px 24px;
+        font-size: 11px;
+    }
+    .form .form_button {
+        right: -5px;
+        top: 28%;
+    }
+    .form .form_row {
+        margin-top: 136px;
+    }
+    .contact .item {
+        margin: 58px 0 -17px;
+    }
+    .contact .social_link {
+        padding-left: 23%;
+    }
+    .contact .heading h3 {
+        margin-bottom: 14px;
+        margin-top: 40px;
+    }
+    .contact .form_row {
+        padding-left: 51px;
+        text-align: center;
+    }
+    .contact .image {
+        margin-top: 114px;
+    }
+}
 
 @media(max-width: 575px) {
-    button {
+    button.regular {
         width: 127px;
         height: 39px;
     }
@@ -39,9 +232,6 @@
     }
     .banner .writting {
         margin-top: 38px;
-    }
-    .history {
-        padding: 22px 0;
     }
     .history .person img {
         width: 73%;
@@ -69,9 +259,6 @@
     .gift .heading h3 {
         font-size: 19px;
         margin-bottom: 19px;
-    }
-    .gift .content img {
-        width: 82%;
     }
     .gift .flower_image img {
         width: 102%;
@@ -160,20 +347,46 @@
     .portfolio .image a.comment {
         left: 46%;
     }
-    .portfolio .writting {
-        text-align: left;
+    .testimonial .flower img {
+        width: 68%;
     }
-    .portfolio .heading {
-        text-align: right;
+    .testimonial_image_top {
+        top: 16%;
+        left: -2%;
     }
-    .portfolio h3 {
-        font-size: 20px;
+    .testimonial_image_bottom {
+        bottom: -7%;
+        right: -6%;
     }
-    .portfolio .love_image img {
-        width: 86%;
+    .form .airo {
+        font-size: 25px;
+        line-height: 93px;
     }
-    .portfolio .love_image {
-        top: -3%;
-        right: 3%;
+    .form h3 {
+        font-size: 17px;
+    }
+    .form h2 {
+        font-size: 11px;
+    }
+    .form .form-control {
+        margin: 0 15px 24px;
+        font-size: 11px;
+    }
+    .form .form_button {
+        right: -5px;
+        top: 28%;
+    }
+    .form .form_row {
+        margin-top: 136px;
+    }
+    .contact .item {
+        margin: 58px 0 -17px;
+    }
+    .contact .social_link {
+        padding-left: 24%;
+    }
+    .contact .heading h3 {
+        margin-bottom: 7px;
+        margin-top: 25px;
     }
 }

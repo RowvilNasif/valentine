@@ -19,7 +19,7 @@
         text-decoration: none;
     }
     
-    button {
+    button.regular {
         cursor: pointer;
         width: 220px;
         height: 58px;
@@ -383,15 +383,14 @@
         z-index: 2;
     }
     
-    .service .content {
-        position: relative;
-        z-index: 3;
-        display: flex;
-        justify-content: space-between;
-    }
-    
     .service .writting {
         position: relative;
+        z-index: 3;
+    }
+    
+    .service .items {
+        position: relative;
+        z-index: 3;
     }
     
     .service .image {
@@ -791,6 +790,7 @@
         border-radius: 50%;
         color: #d50a51;
         transition: all linear .3s;
+        z-index: 5;
     }
     
     .testimonial .buttons:hover {
