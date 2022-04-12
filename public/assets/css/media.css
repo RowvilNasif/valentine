@@ -6,17 +6,112 @@
     }
 }
 
-@media (max-width: 1199px) {
-    .header ul {
-        margin-right: 10%;
+@media(max-width: 1399px) {
+    button.regular {
+        width: 213px;
+    }
+    .history p {
+        margin-left: 106px;
+    }
+    .history .heading {
+        margin-left: 21%;
+    }
+    .history .image {
+        top: -5%;
+        left: 14%;
+    }
+    .portfolio button.regular {
+        width: 164px;
+    }
+    .testimonial_image_top {
+        top: 13%;
+        left: 7%;
+    }
+    .testimonial_image_bottom {
+        bottom: -11%;
+        right: 7%;
+    }
+    .contact .social_link {
+        padding-left: 38%;
     }
 }
 
-@media(max-width: 991px) {}
+@media (max-width: 1199px) {
+    button.regular {
+        width: 175px;
+    }
+    .header ul {
+        margin-right: 10%;
+    }
+    .history p {
+        margin-left: 150px;
+    }
+    .history .heading {
+        margin-left: 33%;
+    }
+    .history .image {
+        top: -5%;
+        left: 24%;
+    }
+    .gift .flower_image {
+        right: 50%;
+    }
+    .ticket .ticket_image img {
+        width: 496px;
+    }
+    .ticket {
+        padding: 52px;
+    }
+    .service .item .head.dinner {
+        left: 30%;
+    }
+    .portfolio button.regular {
+        width: 132px;
+    }
+    .portfolio .image h3 {
+        font-size: 18px;
+    }
+    .portfolio .image a {
+        font-size: 11px;
+    }
+    .portfolio .image button {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .portfolio {
+        padding: 20px 0;
+    }
+    .testimonial_image_top {
+        top: 11%;
+        left: 7.5%;
+    }
+    .testimonial_image_bottom {
+        bottom: -10%;
+        right: 7%;
+    }
+    .form .airo {
+        font-size: 33px;
+        line-height: 89px;
+    }
+    .form h3 {
+        font-size: 27px;
+    }
+    .form h2 {
+        font-size: 12px;
+    }
+    .contact .social_link {
+        padding-left: 35%;
+    }
+}
 
-@media(max-width: 767px) {
+@media(max-width: 991px) {
+    button.regular {
+        width: 140px;
+        height: 39px;
+    }
     .banner .content img {
-        width: 117%;
+        width: 95%;
     }
     .banner h1 {
         font-size: 30px;
@@ -31,6 +126,81 @@
     }
     .banner button {
         font-size: 12px;
+    }
+    .banner .writting {
+        text-align: right;
+        margin-top: 40px;
+    }
+    .history {
+        padding: 34px 0;
+    }
+    .history .person img {
+        width: 82%;
+    }
+    .history .image {
+        top: -9%;
+        left: -4%;
+    }
+    .history .heading {
+        margin-left: 0;
+    }
+    .history p {
+        margin-left: 0;
+    }
+    .ticket {
+        padding-top: 16px;
+        padding-bottom: 28px;
+    }
+    .ticket .ticket_image img {
+        width: 82%;
+    }
+    .ticket .love img {
+        width: 86%;
+    }
+    .service .love.image {
+        left: 7%;
+        top: -5%;
+    }
+    .service .writting_para {
+        margin-top: 38px;
+    }
+    .portfolio {
+        padding: 28px 0;
+    }
+    .portfolio .love_image {
+        top: 4%;
+        right: 6%;
+    }
+    .portfolio .heading {
+        top: 12%;
+        right: 13%;
+    }
+    .testimonial_image_top {
+        top: 13%;
+        left: 11%;
+    }
+    .testimonial_image_bottom {
+        bottom: -11%;
+        right: 10%;
+    }
+    .form h2 {
+        font-size: 11px;
+    }
+    .form h3 {
+        font-size: 22px;
+    }
+    .form .airo {
+        font-size: 27px;
+        line-height: 87px;
+    }
+    .contact .social_link {
+        padding-left: 27%;
+    }
+}
+
+@media(max-width: 767px) {
+    .banner .content img {
+        width: 117%;
     }
     .banner .writting {
         margin-top: 10px;
@@ -67,13 +237,6 @@
     }
     .gift .heading h3 {
         margin-bottom: 32px;
-    }
-    .ticket {
-        padding-top: 16px;
-        padding-bottom: 28px;
-    }
-    .ticket .ticket_image img {
-        width: 82%;
     }
     .ticket .love img {
         width: 86%;
@@ -217,18 +380,9 @@
     .banner .content img {
         width: 109%;
     }
-    .banner h1 {
-        font-size: 30px;
-    }
     .banner h3 {
         font-size: 38px;
         margin-bottom: 2px;
-    }
-    .banner p {
-        margin-bottom: 26px;
-    }
-    .banner button {
-        font-size: 12px;
     }
     .banner .writting {
         margin-top: 38px;
